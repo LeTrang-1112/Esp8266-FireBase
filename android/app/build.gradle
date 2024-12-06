@@ -1,0 +1,44 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.example.esp8266"
+    compileSdk = 33
+    ndkVersion = flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId = "com.example.esp8266"
+        minSdk = 21
+        targetSdk = 33
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug
+        }
+    }
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+dependencies {
+    implementation 'com.google.firebase:firebase-database:20.2.2'  // Firebase Realtime Database
+    implementation 'com.google.firebase:firebase-core:21.1.1'  // Firebase Core
+}
+flutter {
+    source = "../.."
+}

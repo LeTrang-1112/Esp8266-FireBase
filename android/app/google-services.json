@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "22168065282",
+    "firebase_url": "https://ltnhung-4e40f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ltnhung-4e40f",
+    "storage_bucket": "ltnhung-4e40f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22168065282:android:43b222d672638df3f11e1b",
+        "android_client_info": {
+          "package_name": "com.example.esp8266"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVibgpC1wxhkHz9gJrM60Bkzosfw-Jry0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22168065282:android:0fd5a51e330ccba6f11e1b",
+        "android_client_info": {
+          "package_name": "com.example.udesp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVibgpC1wxhkHz9gJrM60Bkzosfw-Jry0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22168065282:android:37b537936d79ee48f11e1b",
+        "android_client_info": {
+          "package_name": "com.letrang.baitaplon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVibgpC1wxhkHz9gJrM60Bkzosfw-Jry0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
